@@ -1,9 +1,9 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger\Providers;
+namespace Revolta77\LaravelSqlLogger\Providers;
 
-use Mnabialek\LaravelSqlLogger\Config;
-use Mnabialek\LaravelSqlLogger\SqlLogger;
+use Revolta77\LaravelSqlLogger\Config;
+use Revolta77\LaravelSqlLogger\SqlLogger;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

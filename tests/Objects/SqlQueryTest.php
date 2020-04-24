@@ -1,10 +1,10 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger\Tests\Objects;
+namespace Revolta77\LaravelSqlLogger\Tests\Objects;
 
 use Illuminate\Support\Carbon;
-use Mnabialek\LaravelSqlLogger\Objects\SqlQuery;
-use Mnabialek\LaravelSqlLogger\Tests\UnitTestCase;
+use Revolta77\LaravelSqlLogger\Objects\SqlQuery;
+use Revolta77\LaravelSqlLogger\Tests\UnitTestCase;
 
 class SqlQueryTest extends UnitTestCase
 {

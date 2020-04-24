@@ -1,9 +1,9 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger;
+namespace Revolta77\LaravelSqlLogger;
 
-use Mnabialek\LaravelSqlLogger\Objects\SqlQuery;
-use Mnabialek\LaravelVersion\Version;
+use Revolta77\LaravelSqlLogger\Objects\SqlQuery;
+use Revolta77\LaravelVersion\Version;
 
 class Query
 {

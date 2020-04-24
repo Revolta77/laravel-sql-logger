@@ -577,7 +577,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Mnabialek\\LaravelVersion\\": "src/"
+                    "Revolta77\\LaravelVersion\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

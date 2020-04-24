@@ -1,6 +1,6 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger;
+namespace Revolta77\LaravelSqlLogger;
 
 use Carbon\Carbon;
 use Illuminate\Container\Container;

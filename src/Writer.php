@@ -1,8 +1,8 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger;
+namespace Revolta77\LaravelSqlLogger;
 
-use Mnabialek\LaravelSqlLogger\Objects\SqlQuery;
+use Revolta77\LaravelSqlLogger\Objects\SqlQuery;
 
 class Writer
 {
@@ -42,6 +42,7 @@ class Writer
      */
     public function save(SqlQuery $query)
     {
+    	dd($query);
         $this->createDirectoryIfNotExists($query->number());
 
         $line = $this->formatter->getLine($query);

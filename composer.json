@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Marcin Nabiałek",
-            "email": "dev@nabialek.org"
+            "name": "Dusan Rybar",
+            "email": "dusan.rybar7@gmail.com"
         }
     ],
     "require": {
@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Mnabialek\\LaravelSqlLogger\\": "src/"
+            "Revolta77\\LaravelSqlLogger\\": "src/"
         }
     },
     "autoload-dev": {
       "psr-4": {
-        "Mnabialek\\LaravelSqlLogger\\Tests\\": "tests"
+        "Revolta77\\LaravelSqlLogger\\Tests\\": "tests"
       }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mnabialek\\LaravelSqlLogger\\Providers\\ServiceProvider"
+                "Revolta77\\LaravelSqlLogger\\Providers\\ServiceProvider"
             ]
         },
         "thanks": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger\Objects\Concerns;
+namespace Revolta77\LaravelSqlLogger\Objects\Concerns;
 
 use DateTime;
 

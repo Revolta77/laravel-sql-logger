@@ -1,6 +1,6 @@
 <?php
 
-namespace Mnabialek\LaravelSqlLogger;
+namespace Revolta77\LaravelSqlLogger;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 
