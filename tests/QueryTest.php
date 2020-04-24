@@ -4,7 +4,7 @@ namespace Revolta77\LaravelSqlLogger\Tests;
 
 use Revolta77\LaravelSqlLogger\Objects\SqlQuery;
 use Revolta77\LaravelSqlLogger\Query;
-use Revolta77\LaravelVersion\Version;
+use Mnabialek\LaravelVersion\Version;
 use Mockery;
 use stdClass;
 
