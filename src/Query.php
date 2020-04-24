@@ -3,7 +3,7 @@
 namespace Revolta77\LaravelSqlLogger;
 
 use Revolta77\LaravelSqlLogger\Objects\SqlQuery;
-use Revolta77\LaravelVersion\Version;
+use Mnabialek\LaravelVersion\Version;
 
 class Query
 {
