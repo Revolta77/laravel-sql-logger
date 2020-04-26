@@ -23,7 +23,29 @@ return [
          * Extension for log files
          */
         'extension' => env('SQL_LOGGER_LOG_EXTENSION', '.sql'),
+
     ],
+
+	'database' => [
+		/*
+			 * All logs save to db
+			 *
+			 */
+		'database_log' => env( 'SQL_LOGGER_LOG_TO_DB', false),
+
+		/*
+		 * Days after clear selects from db.
+		 * If set 0, clear will not be performed
+		 */
+		'select_remove_days' => env( 'SQL_LOGGER_SELECT_REMOVE_DAYS', 5),
+
+		/*
+		 * Days after clear all from db.
+		 * If set 0, clear will not be performed
+		 */
+		'remove_days' => env( 'SQL_LOGGER_REMOVE_DAYS', 5),
+
+	],
 
     'formatting' => [
         /*

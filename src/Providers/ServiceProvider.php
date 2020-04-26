@@ -34,6 +34,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         // register files to be published
         $this->publishes($this->getPublished());
+		$this->loadMigrationsFrom( __DIR__ . '/../../publish/migrations' );
 
         // if no logging is enabled, we can stop here, nothing more should be done
         if (! $this->shouldLogAnything()) {
@@ -44,6 +45,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $logger = $this->app->make(SqlLogger::class);
 
         // listen to database queries
+
         $this->app['db']->listen($this->getListenClosure($logger));
     }
 
