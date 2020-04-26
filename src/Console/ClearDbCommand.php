@@ -8,7 +8,7 @@ use Revolta77\LaravelSqlLogger\Config;
 use Revolta77\LaravelSqlLogger\Models\SqlLog;
 
 class ClearDbCommand extends Command {
-	protected $signature = 'laravelsqllogger:create';
+	protected $signature = 'laravelsqllogger:clear';
     protected $description = 'Remove old logs from db.';
 
 	/**

@@ -3,6 +3,7 @@
 namespace Revolta77\LaravelSqlLogger\Providers;
 
 use Revolta77\LaravelSqlLogger\Config;
+use Revolta77\LaravelSqlLogger\Console\ClearDbCommand;
 use Revolta77\LaravelSqlLogger\SqlLogger;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
@@ -43,6 +44,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         // create logger class
         $logger = $this->app->make(SqlLogger::class);
+
+		$this->app->bind('command.laravelsqllogger:clear', ClearDbCommand::class);
+		$this->commands('command.laravelsqllogger:clear');
 
         // listen to database queries
 
